@@ -1,29 +1,29 @@
-### Olá, eu sou o Diego 👋
+## Diego de Moraes
 
-Fundador da **[Allaska](https://allaska.com.br)**, uma agência onde construo sistemas de automação com IA de ponta a ponta — da captação de leads ao atendimento — pra negócios locais que ainda dependem só de indicação.
+Estudante de Análise e Desenvolvimento de Sistemas, com foco em **dados e automação**. Construo e mantenho em produção os sistemas da [Allaska](https://github.com/euudm/Allaska), minha agência de software para negócios locais: pipelines de coleta e enriquecimento de dados, bots de WhatsApp, scraping com Playwright e sites com 3D em tempo real.
 
-Não trabalho com "IA" no sentido raso de plugar uma API. Cada sistema abaixo nasceu de um problema real de um cliente real, roda em produção e precisou lidar com o que scraping, automação de navegador e integração de API têm de mais chato: seletores que quebram, sessões que caem, rate limit, deduplicação, estado que precisa sobreviver a um restart.
+Gosto de problema concreto: dado que não tem API, processo manual que dá para automatizar, página que precisa carregar rápido no celular de quem vai comprar.
 
----
+### Projetos
 
-**No que trabalho:**
-- 🤖 Automação de aquisição de clientes (busca → enriquecimento → mensagem personalizada → envio)
-- 🕸️ Web scraping resiliente (Playwright) pra dados que não têm API oficial
-- 💬 Bots de WhatsApp com sessão persistente pra prospecção e reativação de carteira
-- 📊 Dashboards e pipelines internos pra rodar tudo isso sem intervenção manual
+| Projeto | O que resolve | Stack |
+|---|---|---|
+| [Allaska](https://github.com/euudm/Allaska) | Pipeline de prospecção: busca empresas no Google Maps e na biblioteca de anúncios da Meta, enriquece com site, Instagram e contato, deduplica entre operadores e dispara mensagens agendadas | Python, Flask, Playwright |
+| [rastreamento-concorrentes](https://github.com/euudm/rastreamento-concorrentes) | Coleta semanal de dados de concorrentes (Maps, site, Instagram), compara com a semana anterior e alerta só quando algo muda | Node.js, Playwright, Apify |
+| [leads-b2b](https://github.com/euudm/leads-b2b) | Qualifica empresas por CNPJ na API pública da Receita, filtra por capital social e exporta para Excel | Python, pandas, rich |
+| [fabrica-nicho](https://github.com/euudm/fabrica-nicho) | Gerador de landing pages a partir de config por cliente; 11 sites de academias publicados | JavaScript, Node.js, Pillow |
+| [ferrum-serralheria](https://github.com/euudm/ferrum-serralheria) | One-page com portão 3D procedural montado pelo scroll, com gerenciador de renderização para manter a performance | React, TypeScript, Three.js |
+| [avaliabot](https://github.com/euudm/avaliabot) | Bot de WhatsApp que pede nota após o atendimento e só envia o link de avaliação do Google para quem deu 4 ou 5 | Node.js, Express, Baileys |
 
----
+### Ferramentas
 
-**Projetos em destaque:**
+**Dados e back-end:** Python, pandas, Node.js, Express, Flask, APIs REST
+**Automação e coleta:** Playwright, Apify, WhatsApp Web (Baileys), Chrome DevTools Protocol, agendamento com cron e Task Scheduler
+**Front-end:** JavaScript, TypeScript, React, Three.js, GSAP, Tailwind, Vite
+**Infra:** Git, Netlify, Railway, Supabase
 
-| Projeto | O que é |
-|---|---|
-| [Allaska](https://github.com/euudm/Allaska) | Pipeline completo de prospecção — busca leads no Google Maps/Meta Ads, enriquece, gera mensagem por segmento e dispara por WhatsApp/Email sem intervenção manual |
-| [rastreamento-concorrentes](https://github.com/euudm/rastreamento-concorrentes) | Monitora concorrentes (Google Maps, site, Instagram) toda semana e avisa por WhatsApp quando algo muda |
-| [leads-b2b](https://github.com/euudm/leads-b2b) | Ferramenta de terminal pra qualificação automática de leads B2B a partir de dados de CNPJ |
+### Agora
 
----
+Estudando engenharia de dados: modelagem, SQL e pipelines (exercícios em [estudos-python-logica](https://github.com/euudm/estudos-python-logica)).
 
-**Stack:** Python · Node.js · Playwright · Flask/Express · WhatsApp Web · Google Maps API · Apify
-
-📍 São Paulo, Brasil · [allaska.com.br](https://allaska.com.br)
+[LinkedIn](https://www.linkedin.com/in/euudm) · São Paulo, Brasil
